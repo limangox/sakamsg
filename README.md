@@ -1,5 +1,5 @@
 
-A CLI tool for 乃木坂46メッセージ | 齋藤飛鳥メッセージ app
+A CLI tool for 乃木坂46メッセージ | 日向坂46メッセージ | 齋藤飛鳥メッセージ app
 
 ![License](https://img.shields.io/badge/license-MIT-yellow)
 ![Language](https://img.shields.io/badge/language-python-brightgreen)
