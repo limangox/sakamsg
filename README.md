@@ -10,25 +10,51 @@ A CLI tool for 乃木坂46メッセージ | 齋藤飛鳥メッセージ app
 - Friendly error alert mechanism.
 
 ## Command
-- -r refresh token 
+
+- `-r` refresh token | The `-r` command defaults download files from nogizaka message app.
+  
   ```
   nogimsg -r refresh_token 
   ```
-- -a Download files from saitou asuka message app.
+- `-hn` Download files from hinatazaka message app.
+  
+  ```
+  nogimsg -r refresh_token -hn
+  ```
+- `-a` Download files from saitou asuka message app.
+  
   ```
   nogimsg -r refresh_token -a
   ```
-- -m member name in Japanese.
+- `-m` member name in Japanese.
+  
   > You can specify multiple members with'-m'
+  
   ```
   nogimsg -r refresh_token -m 遠藤さくら　-m 井上和 
   ```
-- -p Download the Thumbnails、voice calling images、offical photos of all members.
+  > When the `-hn` command is added, the specified hinatazaka member message file will be downloaded
+
+  ```
+  nogimsg -r refresh_token -hn -m 小坂菜緒　-m 金村美玖 
+  ```
+- `-p` Download the Thumbnails、voice calling images、offical photos of all members.
+  
   ```
   nogimsg -r refresh_token -p
   ```
-- -q Query the subscription members (Contains current members that have been subscribed to)
+  > also can with `-hn` to Download the Thumbnails、voice calling images、offical photos of all members from hinatazaka.
+
+  ```
+  nogimsg -r refresh_token -p -hn
+  ```
+- `-q` Query the subscription members (Contains current members that have been subscribed to)
   ```
   nogimsg -r refresh_token -q
+  ```
+  > with `-hn` command
+
+  ```
+  nogimsg -r refresh_token -q -hn
   ```
 
