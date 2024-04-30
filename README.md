@@ -9,6 +9,9 @@ A CLI tool for 乃木坂46メッセージ | 日向坂46メッセージ | 櫻坂4
 - Check for any missing files.
 - Friendly error alert mechanism.
 
+# Notice
+In Mac OS, use `./sakamsg` command to ensure that the running path is accurate, otherwise there will be a `command sakamsg not found `error
+
 ## Command
 
 - `-r` refresh token | The `-r` command defaults download files from nogizaka message app.
