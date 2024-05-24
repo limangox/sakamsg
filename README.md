@@ -2,7 +2,6 @@
 A CLI tool for (乃木坂 | 日向坂 | 櫻坂 | 齋藤飛鳥) メッセージ app and 乃木坂 Blog
 
 ![License](https://img.shields.io/badge/license-MIT-yellow)
-![Language](https://img.shields.io/badge/language-python-brightgreen)
 
 ## Features
 - Retry the download when a download error is encountered.
