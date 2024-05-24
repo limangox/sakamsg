@@ -101,6 +101,9 @@ In Mac OS, use `./sakamsg` command to ensure that the running path is accurate, 
 
 
 # Change Log
+## V1.1.1
+- Fix issue whern update blog html
+
 ## V1.1.0
 - Add Nogizaka Blog Support.Please use `-blog` and `-m ` without `-r` to download blog.
 - A simple local blog reader will be generate when save blogs.
