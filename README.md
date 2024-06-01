@@ -3,6 +3,11 @@ A CLI tool for (乃木坂 | 日向坂 | 櫻坂 | 齋藤飛鳥) メッセージ a
 
 ![License](https://img.shields.io/badge/license-MIT-yellow)
 
+## Support me
+<div align="center">
+  <a href="https://www.buymeacoffee.com/limangox"><img src="https://img.shields.io/badge/logo=buy-me-a-coffee&logoColor=black" alt="BuyMeACoffe"></a>
+</div>
+
 ## Features
 - Retry the download when a download error is encountered.
 - Check for any missing files.
