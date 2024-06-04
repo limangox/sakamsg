@@ -105,7 +105,7 @@ In Mac OS, use `./sakamsg` command to ensure that the running path is accurate, 
   - use `-blog` and `-hn` and `-m` to save hinatazaka member blog
     > add the member's Japanese name after `-m` 
     ```
-    sakamsg -blog -m 加藤史帆 -m 小坂菜緒 -m 上村ひなの
+    sakamsg -blog -m 加藤史帆 -m 小坂菜緒 -m 上村ひなの -hn
     ```
   ### Screenshot for html file
   ![ayablog](/img/blog_aya.jpg)
