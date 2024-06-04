@@ -20,7 +20,7 @@ A CLI tool for (乃木坂 | 日向坂 | 櫻坂 | 齋藤飛鳥) メッセージ a
 - ✅ 櫻坂46 メッセージ
 - ✅ 齋藤飛鳥 メッセージ
 - ✅ 乃木坂46 BLOG
-- [ ] 日向坂46 BLOG
+- ✅ 日向坂46 BLOG
 - [ ] 櫻坂46 BLOG
 
 # Notice
@@ -108,6 +108,11 @@ In Mac OS, use `./sakamsg` command to ensure that the running path is accurate, 
 
 
 # Change Log
+## V1.2.0
+- Support Hinatazaka46 Blog.
+- Fix some issues when saving blog html.
+- Optimize the structure of the generated HTML files.
+
 ## V1.1.1
 - Fix issue when update blog html
 
