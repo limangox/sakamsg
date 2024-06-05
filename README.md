@@ -97,13 +97,12 @@ In Mac OS, use `./sakamsg` command to ensure that the running path is accurate, 
 <details>
   
   - use `-blog` and `-m` to save nogizaka member blog
-
-    > add the member's Japanese name after `-m` 
+  > add the member's Japanese name after `-m`
+> 
     ```
     sakamsg -blog -m 遠藤さくら -m 岩本蓮加 -m 3期生 -m 井上和
     ```
   - use `-blog` and `-hn` and `-m` to save hinatazaka member blog
-    > add the member's Japanese name after `-m` 
     ```
     sakamsg -blog -m 加藤史帆 -m 小坂菜緒 -m 上村ひなの -hn
     ```
