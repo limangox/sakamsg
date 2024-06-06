@@ -94,11 +94,10 @@ In Mac OS, use `./sakamsg` command to ensure that the running path is accurate, 
 
 ## Command for Save blog
 > Special `-m` for Nogizaka46 blog group name : `3期生` | `4期生` | `新4期生` | `5期生`
+> use `-blog` and `-m` to save nogizaka member blog
 <details>
-  
-  - use `-blog` and `-m` to save nogizaka member blog
-  > add the member's Japanese name after `-m`
-> 
+
+  - add the member's Japanese name after `-m`
     ```
     sakamsg -blog -m 遠藤さくら -m 岩本蓮加 -m 3期生 -m 井上和
     ```
