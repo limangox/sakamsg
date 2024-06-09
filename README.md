@@ -32,22 +32,22 @@ In Mac OS, use `./sakamsg` command to ensure that the running path is accurate, 
 >  user needs to get the `refresh token` by own
 <details>
   
-  - `-r` refresh token | The `-r` command defaults download files from nogizaka message app.
+  - `-r` refresh token | The `-r` command defaults saving files from nogizaka message app.
     
     ```
     sakamsg -r refresh_token 
     ```
-  - `-hn` Download files from hinatazaka message app.
+  - `-hn` saving files from hinatazaka message app.
     
     ```
     sakamsg -r refresh_token -hn
     ```
-  - `-s` Download files from sakurazaka message app.
+  - `-s` saving files from sakurazaka message app.
     
     ```
     sakamsg -r refresh_token -s
     ```
-  - `-a` Download files from saitou asuka message app.
+  - `-a` saving files from saitou asuka message app.
     
     ```
     sakamsg -r refresh_token -a
@@ -74,12 +74,12 @@ In Mac OS, use `./sakamsg` command to ensure that the running path is accurate, 
     ```
     sakamsg -r refresh_token -p
     ```
-    > also can with `-hn` to Download the Thumbnails、voice calling images、offical photos of all members from hinatazaka.
+    > also can with `-hn` to save the thumbnails、voice calling images、offical photos of all members from hinatazaka.
   
     ```
     sakamsg -r refresh_token -p -hn
     ```
-    > also can with `-s` to Download the Thumbnails、voice calling images、offical photos of all members from sakurazaka.
+    > also can with `-s` to save the thumbnails、voice calling images、offical photos of all members from sakurazaka.
   
     ```
     sakamsg -r refresh_token -p -s
