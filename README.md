@@ -26,8 +26,14 @@ A CLI tool for (乃木坂 | 日向坂 | 櫻坂 | 齋藤飛鳥) メッセージ a
 # Notice
 In Mac OS, use `./sakamsg` command to ensure that the running path is accurate, otherwise there will be a `command sakamsg not found `error
 
+# recommended terminal tool (os:win)
+> Use the recommended terminal tools to better support the color display of scripts
+- Windows Terminal
+  - [Mircosoft Store](https://apps.microsoft.com/detail/9n0dx20hk701)
+  - [github](https://github.com/microsoft/terminal)
+- Cmder : [Homepage](https://cmder.app/)
 # How to use
-## Command for Save message
+### Command for Save message
 
 >  user needs to get the `refresh token` by own
 <details>
@@ -95,7 +101,7 @@ In Mac OS, use `./sakamsg` command to ensure that the running path is accurate, 
     ```
 </details>
 
-## Command for Save blog
+### Command for Save blog
 > Special `-m` for Nogizaka46 blog group name : `3期生` | `4期生` | `新4期生` | `5期生`
 > use `-blog` and `-m` to save nogizaka member blog
 <details>
@@ -108,7 +114,7 @@ In Mac OS, use `./sakamsg` command to ensure that the running path is accurate, 
     ```
     sakamsg -blog -m 加藤史帆 -m 小坂菜緒 -m 上村ひなの -hn
     ```
-  ### Screenshot for html file
+  #### Screenshot for html file
   ![ayablog](/img/blog_aya.jpg)
 </details>
 
