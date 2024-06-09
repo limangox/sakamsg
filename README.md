@@ -26,7 +26,10 @@ A CLI tool for (乃木坂 | 日向坂 | 櫻坂 | 齋藤飛鳥) メッセージ a
 # Notice
 In Mac OS, use `./sakamsg` command to ensure that the running path is accurate, otherwise there will be a `command sakamsg not found `error
 
+# How to use
 ## Command for Save message
+
+>  user needs to get the `refresh token` by own
 <details>
   
   - `-r` refresh token | The `-r` command defaults download files from nogizaka message app.
