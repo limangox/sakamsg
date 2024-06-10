@@ -24,7 +24,8 @@ A CLI tool for (乃木坂 | 日向坂 | 櫻坂 | 齋藤飛鳥) メッセージ a
 - [ ] 櫻坂46 BLOG
 
 # Notice
-In Mac OS, use `./sakamsg` command to ensure that the running path is accurate, otherwise there will be a `command sakamsg not found `error
+- In Mac OS, use `./sakamsg` command to ensure that the running path is accurate, otherwise there will be a `command sakamsg not found ` error.
+- The default location of the saved file is the same folder as the `exe` file. Since the file path in the HTML of the generated blog uses an absolute path, it is recommended that the `exe` file be placed in a disk/folder that is largely immobile
 
 # Recommended terminal tool (os:win)
 > Use the recommended terminal tools to better support the color display of scripts
