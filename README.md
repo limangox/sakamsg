@@ -1,5 +1,5 @@
 
-A CLI tool for (乃木坂 | 日向坂 | 櫻坂 | 齋藤飛鳥) メッセージ app and sakamichi Blog
+A CLI tool for (乃木坂 | 日向坂 | 櫻坂 | 齋藤飛鳥) メッセージ app and 坂道 Blog
 
 ![License](https://img.shields.io/badge/license-MIT-yellow)
 
