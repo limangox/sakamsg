@@ -26,7 +26,7 @@ A CLI tool for (乃木坂 | 日向坂 | 櫻坂 | 齋藤飛鳥) メッセージ a
 # Notice
 In Mac OS, use `./sakamsg` command to ensure that the running path is accurate, otherwise there will be a `command sakamsg not found `error
 
-# recommended terminal tool (os:win)
+# Recommended terminal tool (os:win)
 > Use the recommended terminal tools to better support the color display of scripts
 - Windows Terminal
   - [Mircosoft Store](https://apps.microsoft.com/detail/9n0dx20hk701)
