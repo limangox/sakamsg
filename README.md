@@ -121,6 +121,10 @@ A CLI tool for (乃木坂 | 日向坂 | 櫻坂 | 齋藤飛鳥) メッセージ a
 
 
 # Change Log
+## V1.2.1
+- Optimize the save policy and retry mechanism for saving blog
+- Fixed the issue where generating HTML files failed when saving some members' blogs.
+
 ## V1.2.0
 - Support Hinatazaka46 Blog.
 - Fix some issues when saving blog html.
