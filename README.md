@@ -136,7 +136,7 @@ A CLI tool for (乃木坂 | 日向坂 | 櫻坂 | 齋藤飛鳥) メッセージ a
 
 ### Fix
 - Optimise the logic of getting the list of Hinagizaka's blogs.
-- Change the content path of saving html to relative path. If you have already saved the blog, please get it again, the file path in html will be updated to relative path.
+- Change the content path of saving html to relative path. If you have already saved the blog (without deleting the saved blog), please get it again, the file path in html will be updated to relative path.
 - Fixed the problem that some blog image url paths were encoded with url code, which caused errors in saving and displaying.
 - Now the blog list of different groups use the colour of the corresponding group,the saved html file will be updated when you save the blog next time.
 
