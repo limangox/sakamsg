@@ -104,6 +104,9 @@ A CLI tool for (乃木坂 | 日向坂 | 櫻坂 | 齋藤飛鳥) メッセージ a
 
 ### Command for Save blog
 > Special `-m` for Nogizaka46 blog group name : `3期生` | `4期生` | `新4期生` | `5期生`
+> 
+> Special `-m` for Nogizaka46 blog group name : `ポカ`
+> 
 > use `-blog` and `-m` to save nogizaka member blog
 <details>
 
@@ -115,12 +118,29 @@ A CLI tool for (乃木坂 | 日向坂 | 櫻坂 | 齋藤飛鳥) メッセージ a
     ```
     sakamsg -blog -m 加藤史帆 -m 小坂菜緒 -m 上村ひなの -hn
     ```
+  - use `-sc` to skipping blog integrity checking
+    
+    > When this feature is activated, only new blog content will be saved, and no integrity check will be performed on blogs that have already been saved locally.
+    ```
+    sakamsg -blog -sc -m 遠藤さくら
+    ```
   #### Screenshot for html file
   ![ayablog](/img/blog_aya.jpg)
 </details>
 
 
 # Change Log
+## V1.2.2
+### What's New
+- Added New version detection function.
+- Add the function of skipping blog integrity checking. If you only want to save the new blog, please use `-sc` command to skip the old blog integrity checking.
+
+### Fix
+- Optimise the logic of getting the list of Hinagizaka's blogs.
+- Change the content path of saving html to relative path. If you have already saved the blog, please get it again, the file path in html will be updated to relative path.
+- Fixed the problem that some blog image url paths were encoded with url code, which caused errors in saving and displaying.
+- Now the blog list of different groups use the colour of the corresponding group,the saved html file will be updated when you save the blog next time.
+
 ## V1.2.1
 - Optimize the save policy and retry mechanism for saving blog
 - Fixed the issue where generating HTML files failed when saving some members' blogs.
