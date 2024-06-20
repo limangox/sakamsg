@@ -129,7 +129,7 @@ A CLI tool for (乃木坂 | 日向坂 | 櫻坂 | 齋藤飛鳥) メッセージ a
 
 
 # Change Log
-##V1.2.3
+## V1.2.3
 ### Fix
 - Fixed an incorrect image extension when saving a blog image.
 
