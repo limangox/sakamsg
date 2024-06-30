@@ -109,7 +109,7 @@
 ### Command for Save blog
 > Special `-m` for Nogizaka46 blog group name : `3期生` | `4期生` | `新4期生` | `5期生`
 > 
-> Special `-m` for Nogizaka46 blog group name : `ポカ`
+> Special `-m` for Hinatazaka46 blog group name : `ポカ`
 > 
 > use `-blog` and `-m` to save nogizaka member blog
 <details>
