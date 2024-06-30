@@ -1,7 +1,12 @@
+<h1 align="center">sakamsg</h1>
 
-A CLI tool for (乃木坂 | 日向坂 | 櫻坂 | 齋藤飛鳥) メッセージ app and 坂道 Blog
+<p align="center"><i>A CLI tool for (乃木坂 | 日向坂 | 櫻坂 | 齋藤飛鳥) メッセージ app and 坂道 Blog</i></p>
 
-![License](https://img.shields.io/badge/license-MIT-yellow)
+<div align="center">
+    <a href="#">
+    <img src="https://img.shields.io/badge/license-MIT-yellow" alt="License">
+  </a>
+  </div>
 
 ## Support me
 <div align="center">
