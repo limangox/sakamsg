@@ -134,6 +134,15 @@
 
 
 # Change Log
+## V1.2.4
+### What's new
+- Add a group blog reader, located in `BLOG/<乃木坂46 | 日向坂46>` directory. You can use `-sc` and one group member name command to create a group blog reader quickly .eg: `sakamsg -sc -blog -m 遠藤さくら` or `sakamsg -sc -hn -m 小坂菜緒` .
+
+### Fix and Change log
+- Fix a full-width digit issue with 乃木坂46 `３期生` and `４期生` blog folder.If you already saved blogs of these groups , manually change the number to half-width digit like  `3期生` and `4期生` .
+- Optimize the BLOG reader style.
+- Fix a partial error in saving the HTML file for a member's blog.
+
 ## V1.2.3
 ### Fix
 - Fixed an incorrect image extension when saving a blog image.
