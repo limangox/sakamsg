@@ -4,7 +4,7 @@
 
 <div align="center">
     <a href="#">
-    <img src="https://img.shields.io/badge/license-MIT-yellow" alt="License">
+    <img src="https://img.shields.io/badge/license-EULA-yellow" alt="License">
   </a>
   </div>
 
