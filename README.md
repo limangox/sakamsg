@@ -106,7 +106,7 @@
     ```
 </details>
 
-### Command for Save blog
+### Command for Saving blog
 > Special `-m` for Nogizaka46 blog group name : `3期生` | `4期生` | `新4期生` | `5期生`
 > 
 > Special `-m` for Hinatazaka46 blog group name : `ポカ`
@@ -125,6 +125,7 @@
   - use `-sc` to skipping blog integrity checking
     
     > When this feature is activated, only new blog content will be saved, and no integrity check will be performed on blogs that have already been saved locally.
+    > And if you add a member who has never saved a blog before, adding the -sc command will not affect this member's blog-saving function; it will ignore the `-sc` command and fully save this member's blog.
     ```
     sakamsg -blog -sc -m 遠藤さくら
     ```
