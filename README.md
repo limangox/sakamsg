@@ -27,6 +27,8 @@
 - ✅ 乃木坂46 BLOG
 - ✅ 日向坂46 BLOG
 - [ ] 櫻坂46 BLOG
+- ✅ Local blog viewer
+- [ ] Local message viewer
 
 # Notice
 - In Mac OS, use `./sakamsg` command to ensure that the running path is accurate, otherwise there will be a `command sakamsg not found ` error.
