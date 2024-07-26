@@ -1,6 +1,6 @@
 <h1 align="center">sakamsg</h1>
 
-<p align="center"><i>A CLI tool for (乃木坂 | 日向坂 | 櫻坂 | 齋藤飛鳥) メッセージ app and 坂道 Blog</i></p>
+<p align="center"><i>A CLI tool for (乃木坂 | 日向坂 | 櫻坂 | 齋藤飛鳥 | 山下美月) メッセージ app and 坂道 Blog</i></p>
 
 <div align="center">
     <a href="#">
@@ -24,6 +24,7 @@
 - ✅ 日向坂46 メッセージ
 - ✅ 櫻坂46 メッセージ
 - ✅ 齋藤飛鳥 メッセージ
+- ✅ 山下美月 メッセージ
 - ✅ 乃木坂46 BLOG
 - ✅ 日向坂46 BLOG
 - [ ] 櫻坂46 BLOG
@@ -65,6 +66,13 @@
     ```
     sakamsg -r refresh_token -a
     ```
+
+  - `-y` saving files from yamashita mizuki message app.
+    
+    ```
+    sakamsg -r refresh_token -y
+    ```
+## Saving specify member's message
   - `-m` member name in Japanese.
     
     > You can specify multiple members with'-m'
@@ -82,7 +90,8 @@
     ```
     sakamsg -r refresh_token -s -m 守屋麗奈 -m 森田ひかる
     ```
-  - `-p` Download the Thumbnails、voice calling images、offical photos of all members.
+## Download the Thumbnails、voice calling images、offical photos of all members.
+  - Use `-p` to download the Thumbnails、voice calling images、offical photos of all members.
     
     ```
     sakamsg -r refresh_token -p
@@ -97,7 +106,8 @@
     ```
     sakamsg -r refresh_token -p -s
     ```
-  - `-q` Query the subscription members (Contains current members that have been subscribed to)
+## Query the subscription members
+  - Use `-q` Query the subscription members (Contains current members that have been subscribed to)
     ```
     sakamsg -r refresh_token -q
     ```
@@ -108,7 +118,7 @@
     ```
 </details>
 
-### Command for Saving blog
+## Command for Saving blog
 > Special `-m` for Nogizaka46 blog group name : `3期生` | `4期生` | `新4期生` | `5期生`
 > 
 > Special `-m` for Hinatazaka46 blog group name : `ポカ`
