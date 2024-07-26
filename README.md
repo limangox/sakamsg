@@ -147,6 +147,13 @@
 
 
 # Change Log
+## V1.3.0
+### What's new
+- Add support for `山下美月メッセージ`
+
+### Fix and Change log
+- Save Blog function optimization
+
 ## V1.2.4
 ### What's new
 - Add a group blog reader, located in `BLOG/<乃木坂46 | 日向坂46>` directory. You can use `-sc` and one group member name command to create a group blog reader quickly .eg: `sakamsg -sc -blog -m 遠藤さくら` or `sakamsg -sc -hn -m 小坂菜緒` .
