@@ -8,17 +8,14 @@
   </a>
   </div>
 
-## Support me
-<div align="center">
-  <a href="https://www.buymeacoffee.com/limangox"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-9e3eb2?style=for-the-badge&logo=buy-me-a-coffee&logoColor=fff" alt="BuyMeACoffe"></a>
-  <a href="https://afdian.net/a/limangox"><img src="https://img.shields.io/badge/🐳爱发电-Support Me-9e3eb2?style=for-the-badge&logoColor=fff" alt="BuyMeACola"></a>
-
 </div>
+
+# Notice
+- This is not an open source project, and I make this because I am interested on it.
 
 ## Features
 - Retry the download when a download error is encountered.
 - Check for any missing files.
-- Friendly error alert mechanism.
 
 - ✅ 乃木坂46 メッセージ
 - ✅ 日向坂46 メッセージ
@@ -30,9 +27,6 @@
 - [ ] 櫻坂46 BLOG
 - ✅ Local blog viewer
 - [ ] Local message viewer
-
-# Notice
-- In Mac OS, use `./sakamsg` command to ensure that the running path is accurate, otherwise there will be a `command sakamsg not found ` error.
 
 # Recommended terminal tool (os:win)
 > Use the recommended terminal tools to better support the color display of scripts
@@ -194,4 +188,7 @@
 - Add Nogizaka Blog Support.Please use `-blog` and `-m ` without `-r` to download blog.
 - A simple local blog reader will be generate when save blogs.
 
-
+## Support me
+<div align="center">
+  <a href="https://www.buymeacoffee.com/limangox"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-9e3eb2?style=for-the-badge&logo=buy-me-a-coffee&logoColor=fff" alt="BuyMeACoffe"></a>
+  <a href="https://afdian.net/a/limangox"><img src="https://img.shields.io/badge/🐳爱发电-Support Me-9e3eb2?style=for-the-badge&logoColor=fff" alt="BuyMeACola"></a>
