@@ -141,6 +141,15 @@
 
 
 # Change Log
+## V1.3.1
+### Fix and Change log
+- Optimize the BLOG reader style.
+- Change the save policy for message `thumbnails/photo image/official photos`. The new one will be saved to the`<group>/memberid_membername` folder.
+     - <mark>If you saved a file in version 1.3.0 or earlier, download 'move_sakaimg.exe' to the directory `MSG/Image/group`, then double-click to run. The program will automatically migrate the files in the folder according to `memberid_membername` folder. You will have to delete the`official_photo`、`phone_images`、`thumbnail` folder from the original directory by yourself.<mark>
+- Optimize the sakurasaka46 `thumbnails/photo image/official photos` save strategy, with the correct `memberid` to create the folder and save the file.
+
+
+
 ## V1.3.0
 ### What's new
 - Add support for `山下美月メッセージ`
