@@ -130,7 +130,7 @@
     ```
   - use `-blog` and `-s` and `-m` to save sakurazaka member blog
     ```
-    sakamsg -blog -m 守屋麗奈 -m 石森璃花 -m 山下瞳月 -hn
+    sakamsg -blog -m 守屋麗奈 -m 石森璃花 -m 山下瞳月 -s
     ```
   - use `-sc` to skipping blog integrity checking
     
