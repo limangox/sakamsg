@@ -24,7 +24,7 @@
 - ✅ 山下美月 メッセージ
 - ✅ 乃木坂46 BLOG
 - ✅ 日向坂46 BLOG
-- [ ] 櫻坂46 BLOG
+- ✅ 櫻坂46 BLOG
 - ✅ Local blog viewer
 - [ ] Local message viewer
 
@@ -128,6 +128,10 @@
     ```
     sakamsg -blog -m 加藤史帆 -m 小坂菜緒 -m 上村ひなの -hn
     ```
+  - use `-blog` and `-s` and `-m` to save sakurazaka member blog
+    ```
+    sakamsg -blog -m 守屋麗奈 -m 石森璃花 -m 山下瞳月 -hn
+    ```
   - use `-sc` to skipping blog integrity checking
     
     > When this feature is activated, only new blog content will be saved, and no integrity check will be performed on blogs that have already been saved locally.
@@ -141,6 +145,20 @@
 
 
 # Change Log
+
+## V1.4.0
+### What's new
+- Add support for ` 櫻坂46 ` BLOG
+
+### Fix and Change log
+- Fixed a 'request failed' issue after saving ` 齋藤飛鳥 メッセージ `
+- Optimize the style of  BLOG reader
+- Update the API parameters of `坂道 メッセージ `
+- Fix some issue when saving ` thumbnails/photo image/official photos ` 
+  - In ` MSG/image/<日向坂46> or <櫻坂46> ` folder,if the number of folders such as ` 121_藤嶌果歩 `,its pre-number is larger than 90 and also have a folder name as ` 74_藤嶌果歩 `.You can use  [merge_dir.exe](https://github.com/limangox/sakamsg/releases/download/V1.4.0/merge_dir.exe)   merge folders to correct pre-number.
+
+
+
 ## V1.3.1
 ### Fix and Change log
 - Optimize the BLOG reader style.
