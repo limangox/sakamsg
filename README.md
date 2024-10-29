@@ -37,7 +37,7 @@
 
 
 # About `refresh_token`
-* Do not update the `メッセージ` app to version 3.1.0 or above. In these new version,method of getting `refresh_token` is a bit more complicated than before.
+* Do not update the `メッセージ` app to version 3.0.0 or above. In these new version,method of getting `refresh_token` is a bit more complicated than before.
 
 
 # How to use
