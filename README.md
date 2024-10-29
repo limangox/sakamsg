@@ -34,11 +34,14 @@
   - [Mircosoft Store](https://apps.microsoft.com/detail/9n0dx20hk701)
   - [github](https://github.com/microsoft/terminal)
 - Cmder : [Homepage](https://cmder.app/)
-# How to use
-### Command for Save message
+
 
 # About `refresh_token`
 * Do not update the `メッセージ` app to version 3.1.0 or above. In these new version,method of getting `refresh_token` is a bit more complicated than before.
+
+
+# How to use
+### Command for Save message
 
 >  user needs to get the `refresh token` by own.
 <details>
