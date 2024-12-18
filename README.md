@@ -37,7 +37,9 @@
 
 
 # About `refresh_token`
-* Do not update the `メッセージ` app to version 3.0.0 or above. In these new version,method of getting `refresh_token` is a bit more complicated than before.
+* Due to a mandatory upgrade of the `メッセージ ` version
+    - For ios users, please choose to transfer data from your old phone when replacing a new one. This will also transfer your token. Please do not re-introduce your account, or it will cause the token to refresh.
+    - For Android users, I don't know if the token will survive the transfer.
 
 
 # How to use
