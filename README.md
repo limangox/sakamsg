@@ -1,3 +1,4 @@
+
 <h1 align="center">sakamsg</h1>
 
 <p align="center"><i>A CLI tool for (乃木坂 | 日向坂 | 櫻坂 | 齋藤飛鳥 | 山下美月) メッセージ app and 坂道 Blog</i></p>
@@ -36,10 +37,11 @@
 - Cmder : [Homepage](https://cmder.app/)
 
 
-# About `refresh_token`
-* Due to a mandatory upgrade of the `メッセージ ` version
-    - For ios users, please choose to transfer data from your old phone when replacing a new one. This will also transfer your token. Please do not re-introduce your account, or it will cause the token to refresh.
-    - For Android users, I don't know if the token will survive the transfer.
+> [!WARNING]
+> # About `refresh_token`
+> * Due to a mandatory upgrade of the `メッセージ ` version
+>    - For ios users, please choose to transfer data from your old phone when replacing a new one. This will also transfer your token. Please do not re-introduce your account, or it will cause the token to refresh.
+>    - For Android users, I don't know if the token will survive the transfer.
 
 
 # How to use
