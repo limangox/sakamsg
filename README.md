@@ -153,8 +153,23 @@
   ![ayablog](/img/blog_aya.jpg)
 </details>
 
-
 # Change Log
+<details>
+
+## V1.4.1
+> [!WARNING]
+> # About `refresh_token`
+> * Due to a mandatory upgrade of the `メッセージ ` version
+>    - For ios users, please choose to transfer data from your old phone when replacing a new one. This will also transfer your token. Please do not re-introduce your account, or it will cause the token to refresh.
+>    - For Android users, I don't know if the token will survive the transfer.
+
+### Change log
+
+* Update all api.
+> [!note]
+> If your token has not changed, you can continue to use this program
+* Fix an issue that can't save all messages from `齋藤飛鳥メッセージ`.
+* Fix an issue when saving ` phoneimage / officalimage ` from `齋藤飛鳥メッセージ`.
 
 ## V1.4.0
 ### What's new
@@ -224,6 +239,8 @@
 ## V1.1.0
 - Add Nogizaka Blog Support.Please use `-blog` and `-m ` without `-r` to download blog.
 - A simple local blog reader will be generate when save blogs.
+
+</details>
 
 ## Support me
 <div align="center">
