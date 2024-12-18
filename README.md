@@ -161,8 +161,6 @@
 ### Change log
 
 * Update all api.
-> [!note]
-> If your token has not changed, you can continue to use this program
 * Fix an issue that can't save all messages from `齋藤飛鳥メッセージ`.
 * Fix an issue when saving ` phoneimage / officalimage ` from `齋藤飛鳥メッセージ`.
 
