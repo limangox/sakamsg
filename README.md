@@ -157,11 +157,6 @@
 <details>
 
 ## V1.4.1
-> [!WARNING]
-> # About `refresh_token`
-> * Due to a mandatory upgrade of the `メッセージ ` version
->    - For ios users, please choose to transfer data from your old phone when replacing a new one. This will also transfer your token. Please do not re-introduce your account, or it will cause the token to refresh.
->    - For Android users, I don't know if the token will survive the transfer.
 
 ### Change log
 
