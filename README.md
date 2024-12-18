@@ -162,7 +162,7 @@
 
 * Update all api.
 * Fix an issue that can't save all messages from `齋藤飛鳥メッセージ`.
-* Fix an issue when saving ` phoneimage / officalimage ` from `齋藤飛鳥メッセージ`.
+* Fix an issue when saving ` phoneimage / officalimage ` from `齋藤飛鳥メッセージ` and ` 山下美月メッセージ `.
 
 ## V1.4.0
 ### What's new
