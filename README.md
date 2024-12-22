@@ -11,8 +11,8 @@
 
 </div>
 
-# Notice
-- This is not an open source project, and I make this because I am interested on it.
+>[!NOTE]
+> This is not an open source project, and I make this because I am interested on it.
 
 ## Features
 - Retry the download when a download error is encountered.
