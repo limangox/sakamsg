@@ -158,6 +158,11 @@
 # Change Log
 <details>
 
+## V1.5.0
+### What's New?
+- Add support for ` 白石麻衣メッセージ `
+- Add support for download past messages
+
 ## V1.4.1
 
 ### Change log
