@@ -1,7 +1,7 @@
 
 <h1 align="center">sakamsg</h1>
 
-<p align="center"><i>A CLI tool for (乃木坂 | 日向坂 | 櫻坂 | 齋藤飛鳥 | 山下美月) メッセージ app and 坂道 Blog</i></p>
+<p align="center"><i>A CLI tool for (乃木坂 | 日向坂 | 櫻坂 | 齋藤飛鳥 | 山下美月 | 白石麻衣) メッセージ app and 坂道 Blog</i></p>
 
 <div align="center">
     <a href="#">
@@ -23,6 +23,7 @@
 - ✅ 櫻坂46 メッセージ
 - ✅ 齋藤飛鳥 メッセージ
 - ✅ 山下美月 メッセージ
+- ✅ 白石麻衣 メッセージ
 - ✅ 乃木坂46 BLOG
 - ✅ 日向坂46 BLOG
 - ✅ 櫻坂46 BLOG
@@ -50,31 +51,36 @@
 >  user needs to get the `refresh token` by own.
 <details>
   
-  - `-r` refresh token | The `-r` command defaults saving files from nogizaka message app.
+  - `-r` refresh token | The `-r` command defaults saving files from 乃木坂 message app.
     
     ```
     sakamsg -r refresh_token 
     ```
-  - `-hn` saving files from hinatazaka message app.
+  - `-hn` saving files from 日向坂 message app.
     
     ```
     sakamsg -r refresh_token -hn
     ```
-  - `-s` saving files from sakurazaka message app.
+  - `-s` saving files from 櫻坂 message app.
     
     ```
     sakamsg -r refresh_token -s
     ```
-  - `-a` saving files from saitou asuka message app.
+  - `-a` saving files from 齋藤飛鳥 message app.
     
     ```
     sakamsg -r refresh_token -a
     ```
 
-  - `-y` saving files from yamashita mizuki message app.
+  - `-y` saving files from 山下美月 message app.
     
     ```
     sakamsg -r refresh_token -y
+    ```
+  - `-mai` saving files from 白石麻衣 message app.
+    
+    ```
+    sakamsg -r refresh_token -mai
     ```
 ## Saving specify member's message
   - `-m` member name in Japanese.
@@ -100,22 +106,18 @@
     ```
     sakamsg -r refresh_token -p
     ```
-    > also can with `-hn` to save the thumbnails、voice calling images、offical photos of all members from hinatazaka.
+    > also can with `-hn / -s / -a / -y / -mai ` to save the thumbnails、voice calling images、offical photos from specify group/person.
   
     ```
     sakamsg -r refresh_token -p -hn
     ```
-    > also can with `-s` to save the thumbnails、voice calling images、offical photos of all members from sakurazaka.
-  
-    ```
-    sakamsg -r refresh_token -p -s
-    ```
+
 ## Query the subscription members
   - Use `-q` Query the subscription members (Contains current members that have been subscribed to)
     ```
     sakamsg -r refresh_token -q
     ```
-    > with `-hn` command
+    > with `-hn / -s / -a / -y / -mai ` command
   
     ```
     sakamsg -r refresh_token -q -hn
