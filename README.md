@@ -38,7 +38,7 @@
 - Cmder : [Homepage](https://cmder.app/)
 
 
-> [!INFO]
+> [!NOTE]
 > # About `refresh_token`
 > * You can use ` [Proxypin](https://github.com/wanghongenpin/proxypin) ` to get your ` refresh_token `.
 
