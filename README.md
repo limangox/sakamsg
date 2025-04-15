@@ -1,7 +1,7 @@
 
 <h1 align="center">sakamsg</h1>
 
-<p align="center"><i>A CLI tool for (乃木坂 | 日向坂 | 櫻坂 | 齋藤飛鳥 | 山下美月 | 白石麻衣) メッセージ app and 坂道 Blog</i></p>
+<p align="center"><i>A CLI tool for 坂道 |  齋藤飛鳥 | 山下美月 | 白石麻衣 メッセージ and 坂道 ブログ</i></p>
 
 <div align="center">
     <a href="#">
