@@ -14,6 +14,10 @@
 >[!NOTE]
 > This is not an open source project, and I make this because I am interested on it.
 
+>[!NOTE]
+>For Yodel メッセージ.
+><br>Please Try [Yodmsg](https://github.com/limangox/yodmsg) .
+
 ## Features
 - Retry the download when a download error is encountered.
 - Check for any missing files.
