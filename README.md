@@ -21,7 +21,7 @@
 ## Features
 - Retry the download when a download error is encountered.
 - Check for any missing files.
-
+- Save letters you sent to members.
 - ✅ 乃木坂46 メッセージ
 - ✅ 日向坂46 メッセージ
 - ✅ 櫻坂46 メッセージ
