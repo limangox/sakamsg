@@ -31,6 +31,7 @@
 - ✅ 乃木坂46 BLOG
 - ✅ 日向坂46 BLOG
 - ✅ 櫻坂46 BLOG
+- [ ] 欅坂46 BLOG
 - ✅ Local blog viewer
 - [ ] Local message viewer
 
