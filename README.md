@@ -103,6 +103,13 @@
     ```
     sakamsg -r refresh_token -s -m 守屋麗奈 -m 森田ひかる
     ```
+
+## Saving letters with `-l`
+
+> - `sakamsg -r refresh_token -l` to save all letters
+> - `sakamsg -r refresh_token -m 遠藤さくら -l` to save letters sent to 遠藤さくら
+> - `sakamsg -r refresh_token -m 大野愛実 -hn -l` to save letters sent to 大野愛実
+
 ## Download the Thumbnails、voice calling images、offical photos of all members.
   - Use `-p` to download the Thumbnails、voice calling images、offical photos of all members.
     
@@ -158,92 +165,6 @@
   ![ayablog](/img/blog_aya.jpg)
 </details>
 
-# Change Log
-<details>
-
-## V1.5.0
-### What's New?
-- Add support for ` 白石麻衣メッセージ `
-- Add support for download past messages
-
-## V1.4.1
-
-### Change log
-
-* Update all api.
-* Fix an issue that can't save all messages from `齋藤飛鳥メッセージ`.
-* Fix an issue when saving ` phoneimage / officalimage ` from `齋藤飛鳥メッセージ` and ` 山下美月メッセージ `.
-
-## V1.4.0
-### What's new
-- Add support for ` 櫻坂46 ` BLOG
-
-### Fix and Change log
-- Fixed a 'request failed' issue after saving ` 齋藤飛鳥 メッセージ `
-- Optimize the style of  BLOG reader
-- Update the API parameters of `坂道 メッセージ `
-- Fix some issue when saving ` thumbnails/photo image/official photos ` 
-  - In ` MSG/image/<日向坂46> or <櫻坂46> ` folder,if the number of folders such as ` 121_藤嶌果歩 `,its pre-number is larger than 90 and also have a folder name as ` 74_藤嶌果歩 `.You can use  [merge_dir.exe](https://github.com/limangox/sakamsg/releases/download/V1.4.0/merge_dir.exe)   merge folders to correct pre-number.
-
-
-
-## V1.3.1
-### Fix and Change log
-- Optimize the BLOG reader style.
-- Change the save policy for message `thumbnails/photo image/official photos`. The new one will be saved to the`<group>/memberid_membername` folder.
-     - <mark>If you saved a file in version 1.3.0 or earlier, download [move_sakaimg.exe](https://github.com/limangox/sakamsg/releases/download/V1.3.1/move_sakaimg.exe) to the directory `MSG/Image/group`, then double-click to run. The program will automatically migrate the files in the folder according to `memberid_membername` folder. You will have to delete the`official_photo`、`phone_images`、`thumbnail` folder from the original directory by yourself.<mark>
-- Optimize the sakurasaka46 `thumbnails/photo image/official photos` save strategy, with the correct `memberid` to create the folder and save the file.
-
-
-
-## V1.3.0
-### What's new
-- Add support for `山下美月メッセージ`
-
-### Fix and Change log
-- Save Blog function optimization
-
-## V1.2.4
-### What's new
-- Add a group blog reader, located in `BLOG/<乃木坂46 | 日向坂46>` directory. You can use `-sc` and one group member name command to create a group blog reader quickly .eg: `sakamsg -sc -blog -m 遠藤さくら` or `sakamsg -sc -hn -m 小坂菜緒` .
-
-### Fix and Change log
-- Fix a full-width digit issue with 乃木坂46 `３期生` and `４期生` blog folder.If you already saved blogs of these groups , manually change the number to half-width digit like  `3期生` and `4期生` .
-- Optimize the BLOG reader style.
-- Fix a partial error in saving the HTML file for a member's blog.
-
-## V1.2.3
-### Fix
-- Fixed an incorrect image extension when saving a blog image.
-
-## V1.2.2
-### What's New
-- Added New version detection function.
-- Add the function of skipping blog integrity checking. If you only want to save the new blog, please use `-sc` command to skip the old blog integrity checking.
-
-### Fix
-- Optimise the logic of getting the list of Hinagizaka's blogs.
-- Change the content path of saving html to relative path. If you have already saved the blog (without deleting the saved blog), please get it again, the file path in html will be updated to relative path.
-- Fixed the problem that some blog image url paths were encoded with url code, which caused errors in saving and displaying.
-- Now the blog list of different groups use the colour of the corresponding group,the saved html file will be updated when you save the blog next time.
-
-## V1.2.1
-- Optimize the save policy and retry mechanism for saving blog
-- Fixed the issue where generating HTML files failed when saving some members' blogs.
-
-## V1.2.0
-- Support Hinatazaka46 Blog.
-- Fix some issues when saving blog html.
-- Optimize the structure of the generated HTML files.
-
-## V1.1.1
-- Fix issue when update blog html
-
-## V1.1.0
-- Add Nogizaka Blog Support.Please use `-blog` and `-m ` without `-r` to download blog.
-- A simple local blog reader will be generate when save blogs.
-
-</details>
 
 ## Support me
 <div align="center">
